@@ -40,7 +40,20 @@ const HomePage = () => {
           <div className="text-6xl text-pastel-rose uppercase">FLORAISON</div>
           <img src="/img/5.svg" alt="Flower" className="w-[160px]" />
         </div>
-        <div className="bg-pastel-peach flex-1 h-[400px]">Cột 2</div>
+        <div className="h-[400px] flex flex-col gap-4 flex-1">
+          <div className="relative flex items-center justify-center bg-white py-6 px-4 border-4 border-vivid-red rounded-md">
+            <h3 className="absolute top-0 left-2/4 -translate-y-2/4 -translate-x-2/4 text-sm text-white bg-vivid-red py-2 px-3 rounded-4xl">Học Flashcard</h3>
+            <img src="/img/10.png" alt="Learning Flashcard" className="w-20" />
+          </div>
+          <div className="relative flex items-center justify-center bg-white py-6 px-4 border-4 border-vivid-red rounded-md">
+            <h3 className="absolute top-0 left-2/4 -translate-y-2/4 -translate-x-2/4 text-sm text-white bg-vivid-red py-2 px-3 rounded-4xl">Thống kê</h3>
+            <img src="/img/11.png" alt="Report" className="w-20" />
+          </div>
+          <div className="relative flex items-center justify-center bg-white py-6 px-4 border-4 border-vivid-red rounded-md">
+            <h3 className="absolute top-0 left-2/4 -translate-y-2/4 -translate-x-2/4 text-sm text-white bg-vivid-red py-2 px-3 rounded-4xl">Danh sách từ tổng hợp</h3>
+            <img src="/img/12.png" alt="Learning Flashcard" className="w-20" />
+          </div>
+        </div>
         <div className="bg-pastel-pear flex-1 h-[400px]">Cột 3</div>
       </div>
     </div>
