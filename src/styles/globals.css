@@ -1,13 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rowdies:wght@300;400;700&display=swap');
 @import "tailwindcss";
 
 @theme {
+  /* Colors */
   --color-*: initial;
+  --color-vivid-red: #ff4f63;
+  --color-light-red: #ffe4e8;
   --color-pastel-rose: #ff9aa2; /* warm pink */
   --color-pastel-salmon: #ffb7b2; /* soft coral */
   --color-pastel-peach: #ffdac1; /* light peach */
   --color-pastel-pear: #e2f0cb; /* pale green */
   --color-pastel-mint: #b5ead7; /* mint */
   --color-pastel-periwinkle: #c7ceea; /* soft periwinkle */
+  --color-white: #ffffff;
+
+  /* Fonts */
+  --font-rowdies: "Rowdies", san-serif;
+  --font-great-vibes: "Great Vibes", san-serif;
 }
 
 @utility container {
@@ -18,6 +27,7 @@
 
 @layer base {
   body {
-    @apply w-full bg-pastel-rose font-normal text-base;
+    @apply font-rowdies w-full font-normal text-base bg-light-red;
   }
 }
+
