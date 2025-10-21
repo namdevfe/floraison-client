@@ -27,7 +27,7 @@
 
 @layer base {
   body {
-    @apply font-rowdies w-full font-normal text-base bg-light-red;
+    @apply font-rowdies w-full font-normal text-base bg-white;
   }
 }
 

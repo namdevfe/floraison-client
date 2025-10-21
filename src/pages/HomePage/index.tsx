@@ -16,7 +16,7 @@ const HomePage = () => {
 
       {/* Bottom */}
       <div className="flex items-center gap-5">
-        <div className="flex flex-col items-center justify-center gap-4 w-[400px] h-[400px] border-4 border-pastel-rose rounded-full">
+        <div className="flex flex-col items-center justify-center gap-4 w-[400px] h-[400px] border-4 border-pastel-rose rounded-full overflow-hidden">
           {/* SVG with curved background and text */}
           <svg viewBox="0 0 130 130" className="w-full h-full" preserveAspectRatio="xMidYMid meet">
             {/* This path creates the pink/coral curved shape */}
